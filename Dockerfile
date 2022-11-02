@@ -1,0 +1,7 @@
+FROM node:16.13.0-alpine3.12
+
+ENV NODE_VERSION 18.12.0 
+WORKDIR /chat
+COPY ./chat /chat
+EXPOSE 3000
+ENV CI=true

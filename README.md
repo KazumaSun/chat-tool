@@ -22,5 +22,5 @@ Ubuntu上でrootユーザで作成されるため，ファイル編集をほか�
 
 
 [DockerでReact＋TypeScript環境を作ってみた～formatterを添えて～](https://logical-studio.com/develop/backend/20211217-docker-react-formatter/)   
-[create-react-appコマンドを利用して、reactをインストールする方法](https://qiita.com/mk185/items/d40e539caad025bdc987)
+[create-react-appコマンドを利用して、reactをインストールする方法](https://qiita.com/mk185/items/d40e539caad025bdc987)  
 [チャットツールを参考にしたサイト](https://morioh.com/p/10ffcb80fa8a)

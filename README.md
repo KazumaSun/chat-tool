@@ -10,8 +10,9 @@
 ~~'create-react-app 任意のapp名(ディレクトリ名)'でreactの初期段階を構築~~    
 'docker compose build'で'create-react-app'をインストールした上で，かつ'firebase'の環境もインストールしている．
 
-docker-compose.ymlがあるディレクトリで以下のコマンドを実行することで，appディレクトリの下にchat-toolディレクトリが作成される.    
-'docker-compose run --rm chat-tool sh -c "create-react-app chat-tool"'   
+docker-compose.ymlがあるディレクトリで以下のコマンドを実行することで，appディレクトリの下にchat-toolディレクトリが作成される. その後，firebaseのモジュールをインストールしている．   
+'docker-compose run --rm chat-tool sh -c "create-react-app chat-tool"'    
+'cd app/chat-tool && npm install --save firebase react-router-dom'   
 
 Ubuntu上でrootユーザで作成されるため，ファイル編集をほかのユーザでもできるようにする．   
 ' sudo chown -R ユーザー名:docker app'

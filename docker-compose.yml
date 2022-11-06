@@ -1,15 +1,15 @@
 version: '3'
 services:
-  front:
-    build: ./
-    container_name: node
+  chat-tool:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chat
     volumes:
-      - ./chat:/chat
-    working_dir: /chat
+      - ./app:/app
+    working_dir: /app
     ports:
       - 3000:3000
     tty: true
     stdin_open: true
-    command: sh -c "cd ./chat; npm start"
-    environment:
-      - CHOKIDAR_USEPOLLING=true
+    command: sh -c "cd ./chat-tool; npm start"

@@ -15,10 +15,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "NODE_OPTIONS=-openssl-legacy-provider react-scripts build && mv build app/chat-tool",
+    "build": "react-scripts build && mv build app/chat-tool",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "NODE_OPTIONS=-openssl-legacy-provider npm run build",
     "deploy": "gh-pages -d build"
   },
   "homepage": "https://KazumaSun.github.io/chat-tool/",

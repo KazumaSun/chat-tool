@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://KazumaSun.github.io/chat-tool/",
+  "homepage": "https://KazumaSun.github.io/chat-tool/app/chat-tool",
   "eslintConfig": {
     "extends": [
       "react-app",

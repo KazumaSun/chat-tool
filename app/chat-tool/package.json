@@ -15,13 +15,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && mv build /app/chat-tool",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://KazumaSun.github.io/chat-tool/app/chat-tool",
+  "homepage": "https://KazumaSun.github.io/chat-tool/",
   "eslintConfig": {
     "extends": [
       "react-app",

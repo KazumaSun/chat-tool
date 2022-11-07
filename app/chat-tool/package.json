@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build app/chat-tool",
+    "build": "NODE_OPTIONS=-openssl-legacy-provider react-scripts build && mv build app/chat-tool",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
